@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.h{
+			background-image: url(8.JPG);
+			background-size: 100% 100%;
+        margin-right: 10px;
+        margin-left: 340px;
+        margin-top:-31px;
+        width: 230px;
+        height: 200px;
+        padding: 2em;
+
+		}
+		.g{
+			background-image: url(7.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: 450px;
+        margin-top: 20px;
+        width: 300px;
+        height: 200px;
+        padding: 2em;
+
+		}
+		.f{
+			background-image: url(6.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: 345px;
+        margin-top: 20px;
+        width: 410px;
+        height: 250px;
+        padding: 2em;
+
+		}
+		.e{
+			background-image: url(5.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: -890px;
+        margin-top: 220px;
+        width: 303px;
+        height: 302px;
+        padding: 2em;
+}
+		}
+		.d{
+			background-image: url(4.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: 550px;
+        margin-top: -32px;
+        width: 400px;
+        height: 330px;
+        padding: 2em;
+
+		}
+		.c{
+			background-image: url(3.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: 450px;
+        margin-top: -31px;
+        width: 600px;
+        height: 300px;
+        padding: 2em;
+
+		}
+		.b{
+			background-image: url(2.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: 340px;
+        margin-top: -31px;
+        width: 410px;
+        height: 250px;
+        padding: 2em;
+
+		}
+		.a {background-image: url(1.JPG);
+			background-size: 100% 100%;
+        margin-right: 100px;
+        margin-left: 1px;
+        margin-top: 10px;
+        width: 300px;
+        height: 200px;
+        padding: 2em;
+}
+	</style>
+</head>
+<body bgcolor="black">
+	<div class="a"><div class="b"><div class="c"><div class="d"></div></br>
+	<div class="e"><div class="f"><div class="g"><div class="h"></div>
+
+
+</body>
+</html>
+
+user interface
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.hitam{
+			background:grey;
+			
+			 border-color: grey;
+			 opacity: 0.7;
+        margin-right: 100px;
+        margin-left: 1830px;
+        margin-top: -70px;
+        width: 50px;
+        height: -20px;
+        padding: 1em;
+
+
+		}
+		.bun{
+			background-image: url(RUSI.png);
+			background-size: 100% 100%;
+			 border-color: blue;
+        margin-right: 100px;
+        margin-left: -40px;
+        margin-top: 50px;
+        
+        border-radius: 20px;
+        width: 200px;
+        height: 800px;
+        
+        
+        padding: 2em;
+		}
+	</style>
+
+</head>
+<body class="bun" >
+	
+	<form action="1.php"method="POST">
+	<div class="hitam"><font color="white"><input type="submit" name="aa"value="LOGIN"></font></div></input></div>
+</form>
+
+
+</body>
+</html>
+login
+<?php
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.bun{
+			background-image: url(RUSI.png);
+			background-size: 100% 100%;
+
+			 border-color: blue;
+        margin-right: 100px;
+        margin-left: -40px;
+        margin-top: 50px;
+        
+        border-radius: 20px;
+        width: 200px;
+        height: 800px;
+        padding: 2em;
+		}
+		
+		.c{background:black;
+			opacity: 0.7;
+			
+			 
+        border-color: blue;
+        margin-right: 100px;
+        margin-left: -40px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        width: 200px;
+        height: 300px;
+        
+        
+        padding: 2em;
+
+		}
+		.b{
+			  border:1px; 
+        border-color: blue;
+        margin-right: 100px;
+        margin-left: 875px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        
+        padding: 2em;
+		}
+		.a{
+			background:url(stage.JPG);
+			background-size: 100% 260%;
+        border:1px; 
+        border-color: blue;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        
+        padding: 2em;
+
+          
+
+		}
+	</style>
+</head>
+<body bgcolor="black">
+	<form action ='validate.php' method='POST'>
+		<font color="white">
+<div class="b"><div class="c"><p>Username :<br/>
+<input size="23px" type='text' name='username'/><br><br></p>
+<p>Password :<br/>
+<input size="23px"type='password' name='password'/></p>
+<br>
+<center><p><button  type='submit'>OK</button></p></center></div>
+</font>
+</form>
+
+</body>
+</html>
+
+
+
